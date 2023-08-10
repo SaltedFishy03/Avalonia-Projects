@@ -1,5 +1,6 @@
 using System;
 using Avalonia.Controls;
+using Avalonia.Dialogs.Internal;
 using Avalonia.Interactivity;
 using Avalonia.Remote.Protocol.Input;
 
@@ -15,6 +16,7 @@ public partial class MainWindow : Window
     public MainWindow()
     {
         InitializeComponent();
+        NewWindow.Navigate(new MyUserControl());
     }
 
     private void Button_OnClick(object? sender, RoutedEventArgs e)
@@ -59,5 +61,10 @@ public partial class MainWindow : Window
 
     private void onMouseClicked(object? sender, MouseClickEventArgs e)
     {
+    }
+
+    private void Button_Navigate(object? sender, RoutedEventArgs e)
+    {
+        NewWindow.Navigate(new MyOwnButton());
     }
 }

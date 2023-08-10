@@ -7,6 +7,9 @@
         <entry key="AvaloniaApplication1/MainWindow.axaml" value="AvaloniaApplication1/AvaloniaApplication1.csproj" />
         <entry key="AvaloniaApplication1/MyOwnEvent.axaml" value="AvaloniaApplication1/AvaloniaApplication1.csproj" />
         <entry key="AvaloniaApplication1/MyUserControl.axaml" value="AvaloniaApplication1/AvaloniaApplication1.csproj" />
+        <entry key="AvaloniaApplication1/NewWindow.axaml" value="AvaloniaApplication1/AvaloniaApplication1.csproj" />
+        <entry key="NotePad/App.axaml" value="NotePad/NotePad.csproj" />
+        <entry key="NotePad/MainWindow.axaml" value="NotePad/NotePad.csproj" />
       </map>
     </option>
   </component>

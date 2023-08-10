@@ -10,7 +10,9 @@
     xmlns:uc="clr-namespace:AvaloniaApplication1"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
     <StackPanel>
-
+        <Button Click="Button_Navigate" />
+        <Label FontSize="50">Todo</Label>
+        <uc:NewWindow Name="NewWindow" />
         <uc:MyOwnButton HorizontalAlignment="Right" MouseClicked="onMouseClicked" />
         <TextBlock
             FontSize="30"

@@ -26,3 +26,6 @@ build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
 [C:/Users/Mathias Schaltz/source/repos/Avalonia-Projects/AvaloniaApplication1/MyUserControl.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/Mathias Schaltz/source/repos/Avalonia-Projects/AvaloniaApplication1/NewWindow.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
