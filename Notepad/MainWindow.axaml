@@ -1,0 +1,77 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="Notepad.MainWindow"
+        Title="Notepad">
+    <Window.Icon><![CDATA[C:\Users\seeke\Downloads\notepad_37173.jpg]]></Window.Icon>
+    
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="Auto"></ColumnDefinition>
+            <ColumnDefinition Width="Auto"></ColumnDefinition>
+            <ColumnDefinition Width="Auto"></ColumnDefinition>
+            <ColumnDefinition Width="Auto"></ColumnDefinition>
+            <ColumnDefinition Width="Auto"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <StackPanel Orientation="Horizontal">
+            <Button FontSize="10" Background="Transparent" Content="Filer"></Button>
+            <Button FontSize="10" Background="Transparent" Content="Rediger"></Button>
+            <Button FontSize="10" Background="Transparent" Content="Formater"></Button>
+            <Button FontSize="10" Background="Transparent" Content="Vis"></Button>
+            <Button FontSize="10" Background="Transparent" Content="Hjælp"></Button>
+        </StackPanel>
+        
+        <TextBox Grid.ColumnSpan="5" Grid.Row="1"></TextBox>
+        
+        <Border Grid.Row="3" Background="GhostWhite" Grid.ColumnSpan="5" Height="20"></Border>
+        <Border Grid.Row="3" Grid.Column="1" BorderBrush="LightGray" BorderThickness="1">
+            <TextBlock
+                VerticalAlignment="Bottom"
+                FontSize="10"
+                FontWeight="Medium"
+                Margin="2,0,50,1">
+                Linje 1. Kol. 1
+            </TextBlock>
+        </Border>
+        <Border Grid.Row="3" Grid.Column="2" BorderBrush="LightGray" BorderThickness="1">
+            <TextBlock
+                FontSize="10"
+                FontWeight="Medium"
+                VerticalAlignment="Bottom"
+                Margin="5,0,10,1">
+                100%
+            </TextBlock>
+        </Border>
+        <Border Grid.Row="3" Grid.Column="3" BorderBrush="LightGray" BorderThickness="1">
+            <TextBlock
+                VerticalAlignment="Bottom"
+                FontSize="10"
+                FontWeight="Medium"
+                Margin="5,0,20,1">
+                Windows(CRLF)
+            </TextBlock>
+        </Border>
+        <Border Grid.Row="3" Grid.Column="4" BorderBrush="LightGray" BorderThickness="1">
+            <TextBlock
+                VerticalAlignment="Bottom"
+                FontSize="10"
+                FontWeight="Medium"
+                Margin="5,0,50,1">
+                UTF-8
+            </TextBlock>
+        </Border>
+        
+      
+    </Grid>
+</Window>

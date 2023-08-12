@@ -10,6 +10,8 @@
         <entry key="AvaloniaApplication1/NewWindow.axaml" value="AvaloniaApplication1/AvaloniaApplication1.csproj" />
         <entry key="NotePad/App.axaml" value="NotePad/NotePad.csproj" />
         <entry key="NotePad/MainWindow.axaml" value="NotePad/NotePad.csproj" />
+        <entry key="Notepad/App.axaml" value="NotePad/NotePad.csproj" />
+        <entry key="Notepad/MainWindow.axaml" value="NotePad/NotePad.csproj" />
       </map>
     </option>
   </component>
