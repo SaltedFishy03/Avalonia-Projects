@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\seeke\\RiderProjects\\Avalonia-Projects\\AvaloniaApplication1\\AvaloniaApplication1.csproj": {}
+    "C:\\Users\\Mathias Schaltz\\RiderProjects\\Avalonia-Projects\\AvaloniaApplication1\\AvaloniaApplication1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\seeke\\RiderProjects\\Avalonia-Projects\\AvaloniaApplication1\\AvaloniaApplication1.csproj": {
+    "C:\\Users\\Mathias Schaltz\\RiderProjects\\Avalonia-Projects\\AvaloniaApplication1\\AvaloniaApplication1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\seeke\\RiderProjects\\Avalonia-Projects\\AvaloniaApplication1\\AvaloniaApplication1.csproj",
+        "projectUniqueName": "C:\\Users\\Mathias Schaltz\\RiderProjects\\Avalonia-Projects\\AvaloniaApplication1\\AvaloniaApplication1.csproj",
         "projectName": "AvaloniaApplication1",
-        "projectPath": "C:\\Users\\seeke\\RiderProjects\\Avalonia-Projects\\AvaloniaApplication1\\AvaloniaApplication1.csproj",
-        "packagesPath": "C:\\Users\\seeke\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\seeke\\RiderProjects\\Avalonia-Projects\\AvaloniaApplication1\\obj\\",
+        "projectPath": "C:\\Users\\Mathias Schaltz\\RiderProjects\\Avalonia-Projects\\AvaloniaApplication1\\AvaloniaApplication1.csproj",
+        "packagesPath": "C:\\Users\\Mathias Schaltz\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Mathias Schaltz\\RiderProjects\\Avalonia-Projects\\AvaloniaApplication1\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\seeke\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Mathias Schaltz\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
