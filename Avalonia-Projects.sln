@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvaloniaApplication1", "Ava
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Notepad", "Notepad\Notepad.csproj", "{A3074299-E7FC-4FB5-B5B4-7DF4FBE3297D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Databinding", "Databinding\Databinding.csproj", "{025D7AFF-E348-4095-946D-4CF4BFA8E3DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVVM", "MVVM\MVVM.csproj", "{C09A8F4E-30B7-4B4C-B478-AD860BFF1A53}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{A3074299-E7FC-4FB5-B5B4-7DF4FBE3297D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A3074299-E7FC-4FB5-B5B4-7DF4FBE3297D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A3074299-E7FC-4FB5-B5B4-7DF4FBE3297D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{025D7AFF-E348-4095-946D-4CF4BFA8E3DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{025D7AFF-E348-4095-946D-4CF4BFA8E3DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{025D7AFF-E348-4095-946D-4CF4BFA8E3DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{025D7AFF-E348-4095-946D-4CF4BFA8E3DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C09A8F4E-30B7-4B4C-B478-AD860BFF1A53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C09A8F4E-30B7-4B4C-B478-AD860BFF1A53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C09A8F4E-30B7-4B4C-B478-AD860BFF1A53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C09A8F4E-30B7-4B4C-B478-AD860BFF1A53}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
